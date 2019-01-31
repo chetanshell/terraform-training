@@ -1,10 +1,10 @@
 region                  = "us-west-1"
-profile                 = "terraform"
+profile                 = "terrauser"
 
-vpc_id                  = "vpc-xxxx"
-azs                     = ["us-west-1a","us-west-1c"]
-subnets                 = ["subnet-xxxx", "subnet-xxxx"]
-security_group_ids      = ["sg-xxxxx"]
+vpc_id                  = "vpc-b3cf11d4"
+azs                     = ["us-west-1a","us-west-1b"]
+subnets                 = ["subnet-490e8e12", "subnet-8fa9dfe8"]
+security_group_ids      = ["sg-0d84fb31d78397289"]
 instance_type           = "t2.micro"
 key_name                = "ec2-inst"
 
