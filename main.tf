@@ -3,7 +3,7 @@ provider "aws" {
   profile = "${var.profile}"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "redhat" {
   ami           = "${var.ami}"
   instance_type = "${var.instance_type}"
 
@@ -16,5 +16,5 @@ resource "aws_instance" "example" {
   associate_public_ip_address = true
 
 
-  user_data = "${file("user_data.txt")}"
+  #user_data = "${file("user_data.txt")}"
   }
